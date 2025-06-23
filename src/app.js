@@ -7,5 +7,21 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-  console.log("Hello Rigo from the console!");
+  //  
 };
+
+ let pronoun = ['the', 'our'];
+  let adj = ['great', 'big'];
+  let noun = ['jogger', 'racoon'];
+
+
+
+  pronoun.map((pro)=>{
+    adj.map((adjetivo)=>{
+     noun.map((nombrePropio)=>{
+       console.log(pro+ " "+adjetivo+ " "+nombrePropio);
+     }
+    )
+    })
+  })
+
